@@ -33,6 +33,5 @@ else:
         mme = 'please enter numbers in all of the fields'
 
 
-st.write(f'### MME: <span style="color:#C33921">{mme}</span>', unsafe_allow_html=True)
-
+st.write(f'### MME: :red[{mme}]')
 
