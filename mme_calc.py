@@ -28,8 +28,9 @@ st.markdown(
     f"""
     # MME Calculator
     Please select an opioid in the sidebar and fill in the strength, quantity, and days supply fields   
-    *MME = strength * (quantity / days supply) * conversion factor*[^1]  
     
+    *MME = strength * (quantity / days supply) * conversion factor*[^1]  
+
     ## MME: :red[{mme}]
 
     ___
