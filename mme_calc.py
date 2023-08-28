@@ -35,5 +35,5 @@ st.markdown(
 
     ___
 
-    [^1]: [Conversions Factors from CDC Prescribing Guidelines](https://www.cdc.gov/mmwr/volumes/71/rr/rr7103a1.htm#T1_down)
+    [^1]: [Conversion Factors from CDC Prescribing Guidelines](https://www.cdc.gov/mmwr/volumes/71/rr/rr7103a1.htm#T1_down)
     """)
