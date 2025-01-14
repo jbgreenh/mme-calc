@@ -1,0 +1,22 @@
+name: daily empty commit
+
+on:
+  schedule:
+    - cron: "0 14 * * *"
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v3
+
+      - name: configure git user
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+
+      - name: create an empty commit
+        run: |
+          git commit --allow-empty -m "Daily empty commit"
+          git push origin main
