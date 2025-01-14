@@ -18,5 +18,5 @@ jobs:
 
       - name: create an empty commit
         run: |
-          git commit --allow-empty -m "Daily empty commit"
+          git commit --allow-empty -m "daily empty commit"
           git push origin main
